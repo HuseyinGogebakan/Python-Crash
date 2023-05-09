@@ -65,3 +65,53 @@ print(f"Hello, his name is {name}") # *.* damn
 name = "Habib"
 age = 36
 print(f"{name} is {age} yo")
+
+
+print(set("Mississippi"))
+
+print("parallel".split())
+
+
+# split
+str ="We must win this time"
+str.split()
+
+# list for every letter
+list(str)
+
+# upper lower
+str.upper()
+str.lower()
+
+# format
+
+print("this is  a test of {}".format(str))
+
+print(f"this is  a test of {str}")
+
+# strip == trim
+print(len(" da sda ".strip()))
+
+# replace 
+print("pahadir".replace("p","b"))
+
+
+
+# starts with 
+print("da hata".startswith("da"))
+
+# str int float input !!! 
+
+# \n method !
+
+# contains 
+print("win" in str)
+
+if "lose " not in str:
+    print("no option to lose exists!")
+
+
+# find and rfind
+print("sadasd".rfind("s"))
+
+print("sadasd".find("s"))

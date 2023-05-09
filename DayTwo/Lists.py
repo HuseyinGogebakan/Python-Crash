@@ -36,3 +36,4 @@ print(sorted_list)
 
 sorted_list.reverse()
 print(sorted_list)
+print(len(sorted_list))
